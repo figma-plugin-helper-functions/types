@@ -14,7 +14,7 @@ yarn add -D @figma-plugin/figma.d.ts
 2. Configure _tsconfig.json_
 ```js
 {
-	"files": ["@figma-plugin/figma.d.ts"]
+	"files": ["./node_modules/@figma-plugin/figma.d.ts/figma.d.ts"]
 }
 ```
 3. Create _index.d.ts_ in the root of project and import definitions to apply it globally:
