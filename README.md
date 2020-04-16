@@ -1,25 +1,25 @@
-# NPM module of figma.d.ts
-[![npm](https://img.shields.io/npm/v/@figma-plugin/figma.d.ts?logo=npm&cacheSeconds=1800)](https://www.npmjs.com/package/@figma-plugin/figma.d.ts)
+# Figma plugin types
+[![npm](https://img.shields.io/npm/v/@figma-plugin/types?logo=npm&cacheSeconds=1800)](https://www.npmjs.com/package/@figma-plugin/types)
 
-This repository automatically making releases of [official Figma plugin Typescript definitions](https://www.figma.com/plugin-docs/api/typings/) file to [@figma-plugin/figma.d.ts](https://www.npmjs.com/package/@figma-plugin/figma.d.ts) NPM module.
+This repository automatically making releases of [official Figma plugin Typescript definitions](https://www.figma.com/plugin-docs/api/typings/) file to [@figma-plugin/types](https://www.npmjs.com/package/@figma-plugin/types) NPM module.
 
 ## Usage
 
 1. Installation
 ```sh
-npm i --save-dev @figma-plugin/figma.d.ts
+npm i --save-dev @figma-plugin/types
 # or
-yarn add -D @figma-plugin/figma.d.ts
+yarn add -D @figma-plugin/types
 ```
 2. Configure _tsconfig.json_
 ```js
 {
-	"files": ["./node_modules/@figma-plugin/figma.d.ts/figma.d.ts"]
+	"files": ["./node_modules/@figma-plugin/types/figma.d.ts"]
 }
 ```
 3. Create _index.d.ts_ in the root of project and import definitions to apply it globally:
 ```ts
-import "@figma-plugin/figma.d.ts"
+import "@figma-plugin/types"
 ```
 
 ## About

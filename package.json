@@ -1,5 +1,5 @@
 {
-  "name": "@figma-plugin/figma.d.ts",
+  "name": "@figma-plugin/types",
   "version": "1.14.0",
   "description": "Figma plugin typescript definitions",
   "main": "",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/figma-plugin-helper-functions/figma.d.ts.git"
+    "url": "git+https://github.com/figma-plugin-helper-functions/types.git"
   },
   "keywords": [
     "figma",
@@ -22,9 +22,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/figma-plugin-helper-functions/figma.d.ts/issues"
+    "url": "https://github.com/figma-plugin-helper-functions/types/issues"
   },
-  "homepage": "https://github.com/figma-plugin-helper-functions/figma.d.ts#readme",
+  "homepage": "https://github.com/figma-plugin-helper-functions/types#readme",
   "devDependencies": {
     "download": "^8.0.0",
     "semver": "^7.3.2"
