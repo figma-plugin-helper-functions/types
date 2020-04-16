@@ -2,7 +2,8 @@
   "name": "@figma-plugin/figma.d.ts",
   "version": "1.14.0",
   "description": "Figma plugin typescript definitions",
-  "main": "figma.d.ts",
+  "main": "",
+  "types": "figma.d.ts",
   "scripts": {
     "sync": "node ./src/fetchDefinitions.js",
     "test": "echo \"Error: no test specified\" && exit 1"
