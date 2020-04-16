@@ -1,8 +1,12 @@
 name: Sync Figma typings
 
+# to trigger initial test
 on:
-  schedule:
-  - cron: '0 3 * * *' # run daily at 3am
+  push:
+    branches:
+      - master
+#   schedule:
+#   - cron: '0 3 * * *' # run daily at 3am
 
 jobs:
   sync:
