@@ -4,6 +4,7 @@
   "description": "Figma plugin typescript definitions",
   "main": "figma.d.ts",
   "scripts": {
+    "sync": "node ./src/fetchDefinitions.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
