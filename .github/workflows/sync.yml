@@ -1,6 +1,6 @@
 name: Sync Figma typings
 
-on:
+on: 
   schedule:
   - cron: '0 3 * * *' # run daily at 3am
 
