@@ -1,0 +1,26 @@
+{
+  "name": "figma.d.ts",
+  "version": "0.0.1",
+  "description": "Figma plugin typescript definitions",
+  "main": "figma.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/figma-plugin-helper-functions/figma.d.ts.git"
+  },
+  "keywords": [
+    "figma",
+    "figma plugin",
+    "typings",
+    "typescript",
+    "definitions"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/figma-plugin-helper-functions/figma.d.ts/issues"
+  },
+  "homepage": "https://github.com/figma-plugin-helper-functions/figma.d.ts#readme"
+}
