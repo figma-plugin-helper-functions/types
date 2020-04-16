@@ -1,10 +1,9 @@
 const fs = require("fs");
-const path = require("path");
 
-const packageJson = require("../package.json");
-const PACKAGE_JSON_PATH = path.join(__dirname, "../package.json");
+const PACKAGE_JSON_PATH = "../package.json";
 
 module.exports = (newVersion) => {
+  const packageJson = require(PACKAGE_JSON_PATH);
   packageJson.version = newVersion;
-  fs.writeFileSync(PACKAGE_JSON_PATH, JSON.stringify(file, null, 2));
+  fs.writeFileSync(PACKAGE_JSON_PATH, JSON.stringify(packageJson, null, 2));
 };
