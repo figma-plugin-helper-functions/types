@@ -14,7 +14,9 @@ yarn add -D @figma-plugin/types
 2. Configure _tsconfig.json_
 ```js
 {
-	"files": ["./node_modules/@figma-plugin/types/figma.d.ts"]
+	"compilerOptions": {
+		"moduleResolution": "node"
+	}
 }
 ```
 3. Create _index.d.ts_ in the root of project and import definitions to apply it globally:
