@@ -1,5 +1,6 @@
 node_modules/
 src/
 .github/
+.vscode/
 package-lock.json
 yarn.lock
