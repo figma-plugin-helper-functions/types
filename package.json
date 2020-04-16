@@ -19,7 +19,11 @@
     "typescript",
     "definitions"
   ],
-  "author": "",
+  "author": {
+    "email": "alexandrtovmach@gmail.com",
+    "name": "Alexandr Tovmach",
+    "url": "https://alexandrtovmach.com"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/figma-plugin-helper-functions/types/issues"
