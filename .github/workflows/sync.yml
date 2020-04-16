@@ -1,0 +1,22 @@
+name: Sync Figma typings
+
+on:
+  schedule:
+  - cron: '0 3 * * *' # run daily at 3am
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12
+      - run: npm i
+      - run: npm run sync
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v4
+        with:
+          author_name: GitHub Action
+          author_email: action@github.com
+          message: "feat: Updated figma.d.ts typings"
