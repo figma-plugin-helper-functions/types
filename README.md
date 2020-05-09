@@ -1,3 +1,5 @@
+⚠️⚠️⚠️ DEPRECATED IN FAVOR OF OFFICIAL PACKAGE [@figma/plugin-typings](https://www.npmjs.com/package/@figma/plugin-typings) ⚠️⚠️⚠️
+
 # Figma plugin types
 [![npm](https://img.shields.io/npm/v/@figma-plugin/types?logo=npm&cacheSeconds=1800)](https://www.npmjs.com/package/@figma-plugin/types)
 
