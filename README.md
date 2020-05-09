@@ -1,7 +1,8 @@
-⚠️⚠️⚠️ DEPRECATED IN FAVOR OF OFFICIAL PACKAGE [@figma/plugin-typings](https://www.npmjs.com/package/@figma/plugin-typings) ⚠️⚠️⚠️
-
-# Figma plugin types
+# Figma plugin types [DEPRECATED]
 [![npm](https://img.shields.io/npm/v/@figma-plugin/types?logo=npm&cacheSeconds=1800)](https://www.npmjs.com/package/@figma-plugin/types)
+
+## ⚠️⚠️⚠️
+Scince **May 8, 2020** official package is available here [@figma/plugin-typings](https://www.npmjs.com/package/@figma/plugin-typings). This package no longer needed and should be replaced with official one.
 
 This repository automatically making releases of [official Figma plugin Typescript definitions](https://www.figma.com/plugin-docs/api/typings/) file to [@figma-plugin/types](https://www.npmjs.com/package/@figma-plugin/types) NPM module.
 
